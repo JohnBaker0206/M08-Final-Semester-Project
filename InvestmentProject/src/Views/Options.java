@@ -16,7 +16,7 @@ public class Options extends GridPane {
     //Constructor that initializes all the variables and sets private fields in the grid pane
     
     public Options() {
-        whereToInvest = new Label("Where you wanna Invest?");
+        whereToInvest = new Label("Where do you want to Invest?");
         whereToInvest.setStyle("-fx-font-size: 18; -fx-font-weight: bold;");
         stock = new Button("Stock");
         realEstate = new Button("Real Estate");
